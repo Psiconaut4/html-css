@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/*
+    em HTML é id = em CSS é #
+    em HTML é class = em CSS é .
+*/
+
+body{
+    background-image: linear-gradient(rgb(134, 231, 248), rgb(138, 248, 193));
+    font-family: sans-serif;
+}
+
+h1{
+    color:rgb(25, 43, 46) ;
+    text-shadow: 4px 2px 4px;
+}
+h1#principal{
+    text-align: center;
+}
+h2{
+    color: rgb(79, 130, 139);
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style> 
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            margin: 0px
+        }
+        header{
+            background-color: rgb(253, 92, 74);
+            padding: 10px;
+            margin: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+        }
+        h1{
+            font-family: 'Dancing Script';
+            text-align: center;
+        }
+        nav{
+            background-color: lightgray;
+            padding: 3px;
+            margin: 0px;
+            text-align: center;
+            height: 1em;
+        }
+        nav > a {
+            text-decoration: none;
+            color: gray;
+            font-style: italic;
+            margin-right: 40px;
+            padding: 2px;
+            border: 1px solid gray;
+            font-weight: lighter;
+            box-shadow: 2px 2px 4px rgb(7, 4, 4);
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: rgb(245, 238, 238);
+            border-radius: 20px 0px 20px 0px;
+            box-shadow: 4px 4px 4px black;
+            margin-bottom: 10px;
+        }
+        article{
+            background-color: salmon;
+            padding-left: 5px;
+            border-radius: 20px 0px 20px 0px;
+        }
+        article > aside{
+            background-color: rgb(253, 155, 144);
+            text-align: center;
+            font-style: italic;
+            font-weight: lighter;
+            border-radius: 0px 0px 20px 0px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            margin: auto;
+            margin-top: 50px;
+            border-radius: 50%;
+        }
+        div#bola:hover{
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <header> <!--cabeçalho-->
+        <h1>meu trash site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Terra explode</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint animi dolore, eos perferendis ducimus, quas, temporibus eveniet expedita consectetur facilis saepe enim quam alias. In ducimus fuga accusantium eaque minus?</p>
+                <aside>
+                    Artigo escrito por Zé Ruela
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+            <p>Written by NATHAN</p>
+    </footer>
+    <div id="bola"></div>
+    
+</body>
+</html>
