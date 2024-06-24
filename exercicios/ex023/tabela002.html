@@ -24,11 +24,14 @@
         text-align: right;
       }
       caption{
-        background-color: darkgray;
+        background-color: lightgray;
         padding: 10px;
         font-weight: bold;
         font-size: 1.3em;
         
+      }
+      tbody > tr:nth-child(2n){
+        background-color: lightgray;
       }
     </style>
 </head>
@@ -56,7 +59,7 @@
         <tfoot>
             <tr>
                 <th scope="row">TOTAL DE HABITANTES</th>
-                <td><strong>203.062.512</strong></td>
+                <td class="num"><strong>203.062.512</strong></td>
             </tr>
         </tfoot>
         <tbody>
