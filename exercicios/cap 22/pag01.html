@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon1.ico" type="image/x-icon">
+    <title>I love you</title>
+    <style>
+        #heart{
+            box-shadow: 7px 2px 2px rgba(104, 22, 22, 0.651);
+            height: 160px;
+            width: 100px;
+            background-color: #fd267d;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            border-radius: 200px 200px 0 0;
+            transform: rotate(45deg);
+        }
+        #heart::before{
+            content: " ";
+            position: absolute;
+            height: 160px;
+            width: 100px;
+            background-color: #fd267d;
+            border-radius: 200px 200px 0 0;
+            transform: rotate(-90deg);
+            top: 20%;
+            left: -30%;
+        }
+        p{
+            color: #fad6d6;
+            position: absolute;
+            top: 40%;
+            transform: rotate(-45deg);
+            font-style: italic;
+            text-shadow: 1px 2px 1px #fccade9a;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <div id="heart">
+        <strong>
+            <p>I love U</p>
+        </strong>
+    </div>
+</body>
+</html>
